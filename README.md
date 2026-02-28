@@ -1,51 +1,74 @@
-**Project:** Cloud Native Expense Tracker with CI/CD.
+# 22A91A6194/CLOUD-NATIVE-EXPENSE-TRACKER-WITH-CI-CD
 
-It is a Web Application that helps users keep track of their daily expenses easily and efficiently.  (MERN)
-•	**Front End:** React.jsFSD:
-⚡ Frontend Tech Stack & Features:
+## Project Description
+No description is available for this repository.
 
-S.No	Package / Library	Purpose
-1.	    Vite		Fast build tool for frontend development
-2. 	 Tailwind CSS		Utility-first CSS framework for fast UI development
-3. 	    Axios		For making HTTP requests to the backend
-4. 	Emoji Picker (React)	To enable emoji selection in forms (e.g., comments, expense tags)
-5. 	   Moment.js		Date formatting and calendar-related operations
-6. 	React Hot Toast		Display toast notifications (e.g., "Expense Added Successfully!")
-7. 	   React Icons		Vector icons from various icon libraries
-8. 	   Recharts		Charts & graphs for dashboards (expense insights, stats, etc.)
+## Installation
+1. Clone the repository.
+2. Install dependencies using the detected package manager.
+3. Configure environment variables if required.
+4. Start the application or run the primary script.
 
+## Usage
+Document the main entry point and usage commands for local development and production.
 
-📁 Important API Paths (Frontend)
+## Folder Structure
+```text
++ Backend
+  - .env
+  + config
+    - db.js
+  + controllers
+    - authController.js
+    - dashboardController.js
+    - expenseController.js
+    - incomeController.js
+  - expense_details.xlsx
+  - income_details.xlsx
+  + middleware
+    - authMiddleware.js
+    - uploadMiddleware.js
+  + models
+    - Expense.js
+    - Income.js
+    - User.js
+  + node_modules
+    + .bin
+    - .package-lock.json
+    + @mongodb-js
+    + @types
+    + accepts
+    + adler-32
+    + anymatch
+    + append-field
+    + balanced-match
+    + bcryptjs
+    + binary-extensions
+    + body-parser
+    + brace-expansion
+    + braces
+    + bson
+    + buffer-equal-constant-time
+    + buffer-from
+    + busboy
+    + bytes
+    + call-bind-apply-helpers
+    + call-bound
+    ...
+  ...
+...
+```
 
-File Name	API Purpose
-Login-API	To authenticate users
-Register-API	To register new users
-Get_User_Info	To fetch user profile details after login
-Verify_OTP	To verify OTP sent to user email during login
+## Tech Stack
+- Languages: JavaScript (97.31%), CSS (2.33%), HTML (0.36%)
+- Frameworks: Vite
+- Package Managers: npm, npm/yarn
 
-📌 All these APIs are called using Axios from frontend
+## Contribution Guidelines
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit and push changes.
+4. Open a pull request with a clear description.
 
-
-
-
-•	**Backend** built with Node.js and express.
-
-🛠️ Backend Tech Stack (driver.js and Others)
-S.No	Package			Purpose
-1.	 cors			Handle Cross-Origin requests (frontend & backend on different ports)
-2. 	 bcryptjs		Encrypt (hash) passwords before storing in database
-3. 	 dotenv			Use environment variables (like DB URI, secret keys)
-4. 	 jsonwebtoken		Generate & verify secure tokens for user authentication
-5. 	 mongoose		ORM to interact with MongoDB
-6.  	 nodemon		Auto-restarts server on file changes
-7. 	 multer			Handle file uploads (e.g., profile pictures)
-8. 	 nodemailer		Send emails (e.g., OTPs, confirmation mails)
-9. 	 xlsx			Generate and download Excel sheets from your app
-
-
-•	Need of **Database** (Used MongoDB).
-
-**Motto of the project:**
-The main goal of your project is to help users manage their money better by tracking expenses in real-time, providing a simple interface, and ensuring reliable, scalable deployment using modern cloud and DevOps technologies.
-
-**Access Link:** https://stormledgers-nine.vercel.app/
+## License
+License is not specified.
