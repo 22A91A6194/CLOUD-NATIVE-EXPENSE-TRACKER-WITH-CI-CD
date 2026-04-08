@@ -71,4 +71,4 @@ Document the main entry point and usage commands for local development and produ
 4. Open a pull request with a clear description.
 
 ## License
-License is not specified.
+MIT License
